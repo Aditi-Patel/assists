@@ -1,0 +1,223 @@
+<template>
+  <lightning-card >
+  <div class="component">
+    <div class="header "><img src={logo} /></div>
+    
+    <div class=" slds-border_top all ">
+      <div class="slds-grid slds-gutters" if:true={type1}>
+        <div class="slds-col slds-size_2-of-12 icon">
+          <lightning-icon icon-name={displayIcon1}  title="Account" size="large"></lightning-icon>
+        </div>
+        <div class="slds-col slds-size_10-of-12 text">
+          <div class="slds-grid slds-gutters">
+            <div class="slds-col slds-size_4-of-5">
+              <p >{type1} </p>
+              <p>{description1}</p>
+            </div>
+            <div class="slds-col slds-size_1-of-5">
+              <div class="time">{time1}</div>
+            </div>
+            </div>
+            
+            <!-- <p>{type1} </p>
+            <p>{description1}</p>
+            <div class="time">{time1}</div> -->
+        </div>
+      </div>
+      <div class="slds-grid slds-gutters" if:true={type2}>
+          <div class="slds-col slds-size_2-of-12 icon">
+            <lightning-icon icon-name={displayIcon2}  title="Account" size="large"></lightning-icon>
+          </div>
+          <div class="slds-col slds-size_10-of-12 text">
+            <div class="slds-grid slds-gutters">
+              <div class="slds-col slds-size_4-of-5">
+                <p >{type2} </p>
+                <p>{description2}</p>
+              </div>
+              <div class="slds-col slds-size_1-of-5">
+                <div class="time">{time2}</div>
+              </div>
+              </div>
+              <!-- <p>{type2} </p>
+              <p>{description2}</p>
+              <div class="time">{time2}</div> -->
+            </div>
+      </div>
+      <div class="slds-grid slds-gutters" if:true={type3}>
+        <div class="slds-col slds-size_2-of-12 icon">
+          <lightning-icon icon-name={displayIcon3}  title="Account" size="large"></lightning-icon>
+        </div>
+        <div class="slds-col slds-size_10-of-12  text">
+            <!-- <p>{type3} </p>
+            <p>{description3}</p>
+            <div class="time">{time3}</div> -->
+            <div class="slds-grid slds-gutters">
+              <div class="slds-col slds-size_4-of-5">
+                <p >{type3} </p>
+                <p>{description3}</p>
+              </div>
+              <div class="slds-col slds-size_1-of-5">
+                <div class="time">{time3}</div>
+              </div>
+              </div>
+        </div>
+      </div>
+      <div class="slds-grid slds-gutters" if:true={type4}>
+        <div class="slds-col slds-size_2-of-12 icon">
+          <lightning-icon icon-name={displayIcon4}  title="Account" size="large"></lightning-icon>
+        </div>
+        <div class="slds-col slds-size_10-of-12 text">
+            <!-- <p>{type4} </p>
+            <p>{description4}</p>
+            <div class="time">{time4}</div> -->
+            <div class="slds-grid slds-gutters">
+              <div class="slds-col slds-size_4-of-5">
+                <p >{type4} </p>
+                <p>{description4}</p>
+              </div>
+              <div class="slds-col slds-size_1-of-5">
+                <div class="time">{time4}</div>
+              </div>
+              </div>
+        </div>
+      </div>
+      <div class="slds-grid slds-gutters" if:true={type5}>
+        <div class="slds-col slds-size_2-of-12 icon">
+          <lightning-icon icon-name={displayIcon5}  title="Account" size="large"></lightning-icon>
+        </div>
+        <div class="slds-col slds-size_10-of-12 text">
+            <!-- <p>{type5} </p>
+            <p>{description5}</p>
+            <div class="time">{time5}</div> -->
+            <div class="slds-grid slds-gutters">
+              <div class="slds-col slds-size_4-of-5">
+                <p >{type5} </p>
+                <p>{description5}</p>
+              </div>
+              <div class="slds-col slds-size_1-of-5">
+                <div class="time">{time5}</div>
+              </div>
+              </div>
+        </div>
+      </div>
+      <div class="slds-grid slds-gutters " if:true={type6}>
+        <div class="slds-col slds-size_2-of-12 icon">
+          <lightning-icon icon-name={displayIcon6}  title="Account" size="large"></lightning-icon>
+        </div>
+        <div class="slds-col slds-size_10-of-12 text" >
+            <!-- <p>{type6} </p>
+            <p>{description6}</p>
+            
+            <div class="time">{time6}</div> -->
+            <div class="slds-grid slds-gutters">
+              <div class="slds-col slds-size_4-of-5">
+                <p >{type6} </p>
+                <p>{description6}</p>
+              </div>
+              <div class="slds-col slds-size_1-of-5">
+                <div class="time">{time6}</div>
+              </div>
+              </div>
+        </div>
+      </div>
+      <div class="slds-grid slds-gutters" if:true={type7}>
+        <div class="slds-col slds-size_2-of-12 icon">
+          <lightning-icon icon-name={displayIcon7}  title="Account" size="large"></lightning-icon>
+        </div>
+        <div class="slds-col slds-size_10-of-12 text">
+            <!-- <p>{type7}</p>
+            <p>{description7}</p>
+            <div class="time">{time7}</div> -->
+            <div class="slds-grid slds-gutters">
+              <div class="slds-col slds-size_4-of-5">
+                <p >{type7} </p>
+                <p>{description7}</p>
+              </div>
+              <div class="slds-col slds-size_1-of-5">
+                <div class="time">{time7}</div>
+              </div>
+              </div>
+        </div>
+      </div>
+      <div class="slds-grid slds-gutters" if:true={type8}>
+        <div class="slds-col slds-size_2-of-12 icon">
+          <lightning-icon icon-name={displayIcon8}  title="Account" size="large"></lightning-icon>
+        </div>
+        <div class="slds-col slds-size_10-of-12 text">
+            <!-- <p>{type8} </p>
+            <p>{description8}</p>
+            <div class="time">{time8}</div> -->
+            <div class="slds-grid slds-gutters">
+              <div class="slds-col slds-size_4-of-5">
+                <p >{type8} </p>
+                <p>{description8}</p>
+              </div>
+              <div class="slds-col slds-size_1-of-5">
+                <div class="time">{time8}</div>
+              </div>
+              </div>
+        </div>
+      </div>
+      <div class="slds-grid slds-gutters" if:true={type9}>
+        <div class="slds-col slds-size_2-of-12 icon">
+          <lightning-icon icon-name={displayIcon9}  title="Account" size="large"></lightning-icon>
+        </div>
+        <div class="slds-col slds-size_10-of-12 text">
+            <!-- <p>{type9} </p>
+            <p>{description9}</p>
+            <div class="time">{time9}</div> -->
+            <div class="slds-grid slds-gutters">
+              <div class="slds-col slds-size_4-of-5">
+                <p >{type9} </p>
+                <p>{description9}</p>
+              </div>
+              <div class="slds-col slds-size_1-of-5">
+                <div class="time">{time9}</div>
+              </div>
+              </div>
+        </div>
+      </div>
+      <div class="slds-grid slds-gutters" if:true={type10}>
+        <div class="slds-col slds-size_2-of-12 icon">
+          <lightning-icon icon-name={displayIcon10}  title="Account" size="large"></lightning-icon>
+        </div>
+        <div class="slds-col slds-size_10-of-12 text">
+            <!-- <p>{type10} </p>
+            <p>{description10}</p>
+            <div class="time">{time10}</div> -->
+            <div class="slds-grid slds-gutters">
+              <div class="slds-col slds-size_4-of-5">
+                <p >{type10} </p>
+                <p>{description10}</p>
+              </div>
+              <div class="slds-col slds-size_1-of-5">
+                <div class="time">{time10}</div>
+              </div>
+              </div>
+        </div>
+      </div>
+      <div class="slds-grid slds-gutters" if:true={type11}>
+        <div class="slds-col slds-size_2-of-12 icon">
+          <lightning-icon icon-name={displayIcon11}  title="Account" size="large"></lightning-icon>
+        </div>
+        <div class="slds-col slds-size_10-of-12 text">
+            <!-- <p>{type11} </p>
+            <p>{description11}</p>
+            <div class="time">{time11}</div> -->
+            <div class="slds-grid slds-gutters">
+              <div class="slds-col slds-size_4-of-5">
+                <p >{type11} </p>
+                <p>{description11}</p>
+              </div>
+              <div class="slds-col slds-size_1-of-5">
+                <div class="time">{time11}</div>
+              </div>
+              </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</lightning-card>
+
+</template>

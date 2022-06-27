@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <isExposed>true</isExposed>
+   
+    
+        
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__Tab</target>
+    </targets>
+    
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage,lightning__AppPage,lightning__HomePage">
+            <property name="type1" label="Activity 1 Type" default="" type="String" datasource="Search,Question Posted,Profile Update,Chat Session,Event Registration,Article View,Form View,Service Request,Ad Click,Marketplace Purchase,File View" />
+            <property name="description1" label="Activity 1 description" type="String"  />
+            <property name="time1" label="Activity 1 Time" type="String"  />
+            <property name="type2" label="Activity 2 Type" default="" type="String" datasource="Search,Question Posted,Profile Update,Chat Session,Event Registration,Article View,Form View,Service Request,Ad Click,Marketplace Purchase,File View" />
+            <property name="description2" label="Activity 2 description" type="String"  />
+            <property name="time2" label="Activity 2 Time" type="String"  />
+            <property name="type3" label="Activity 3 Type" default="" type="String" datasource="Search,Question Posted,Profile Update,Chat Session,Event Registration,Article View,Form View,Service Request,Ad Click,Marketplace Purchase,File View" />
+            <property name="description3" label="Activity 3 description" type="String"  />
+            <property name="time3" label="Activity 3 Time" type="String"  />
+            <property name="type4" label="Activity 4 Type" default="" type="String" datasource="Search,Question Posted,Profile Update,Chat Session,Event Registration,Article View,Form View,Service Request,Ad Click,Marketplace Purchase,File View" />
+            <property name="description4" label="Activity 4 description" type="String"  />
+            <property name="time4" label="Activity 4 Time" type="String"  />
+            <property name="type5" label="Activity 5 Type" default="" type="String" datasource="Search,Question Posted,Profile Update,Chat Session,Event Registration,Article View,Form View,Service Request,Ad Click,Marketplace Purchase,File View" />
+            <property name="description5" label="Activity 5 description" type="String"  />
+            <property name="time5" label="Activity 5 Time" type="String"  />
+            <property name="type6" label="Activity 6 Type" default="" type="String" datasource="Search,Question Posted,Profile Update,Chat Session,Event Registration,Article View,Form View,Service Request,Ad Click,Marketplace Purchase,File View" />
+            <property name="description6" label="Activity 6 description" type="String"  />
+            <property name="time6" label="Activity 6 Time" type="String"  />
+            <property name="type7" label="Activity 7 Type" default="" type="String" datasource="Search,Question Posted,Profile Update,Chat Session,Event Registration,Article View,Form View,Service Request,Ad Click,Marketplace Purchase,File View" />
+            <property name="description7" label="Activity 7 description" type="String"  />
+            <property name="time7" label="Activity 7 Time" type="String"  />
+            <property name="type8" label="Activity 8 Type" default="" type="String" datasource="Search,Question Posted,Profile Update,Chat Session,Event Registration,Article View,Form View,Service Request,Ad Click,Marketplace Purchase,File View" />
+            <property name="description8" label="Activity 8 description" type="String"  />
+            <property name="time8" label="Activity 8 Time" type="String"  />
+            <property name="type9" label="Activity 9 Type" default="" type="String" datasource="Search,Question Posted,Profile Update,Chat Session,Event Registration,Article View,Form View,Service Request,Ad Click,Marketplace Purchase,File View" />
+            <property name="description9" label="Activity 9 description" type="String"  />
+            <property name="time9" label="Activity 9 Time" type="String"  />
+            <property name="type10" label="Activity 10 Type" default="" type="String" datasource="Search,Question Posted,Profile Update,Chat Session,Event Registration,Article View,Form View,Service Request,Ad Click,Marketplace Purchase,File View" />
+            <property name="description10" label="Activity 10 description" type="String"  />
+            <property name="time10" label="Activity 10 Time" type="String"  />
+            <property name="type11" label="Activity 11 Type" default="" type="String" datasource="Search,Question Posted,Profile Update,Chat Session,Event Registration,Article View,Form View,Service Request,Ad Click,Marketplace Purchase,File View" />
+            <property name="description11" label="Activity 11 description" type="String"  />
+            <property name="time11" label="Activity 11 Time" type="String"  />
+            
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
